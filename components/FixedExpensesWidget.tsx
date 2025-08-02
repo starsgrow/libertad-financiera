@@ -5,14 +5,8 @@ import { AlertTriangle, Clock, Calendar, CheckCircle } from 'lucide-react'
 import { db } from '@/lib/database'
 import Link from 'next/link'
 
-interface FixedExpense {
-  id: number
-  name: string
-  amount: number
-  dueDate: string
-  category: string
-  isPaid: boolean
-}
+// Import the type from database instead of defining it locally
+import type { FixedExpense } from '@/lib/database'
 
 export default function FixedExpensesWidget() {
   const [upcomingExpenses, setUpcomingExpenses] = useState<FixedExpense[]>([])

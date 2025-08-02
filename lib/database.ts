@@ -6,7 +6,7 @@ const FIXED_EXPENSES_STORE = 'fixedExpenses'
 const PATRIMONY_STORE = 'patrimony'
 const PATRIMONY_HISTORY_STORE = 'patrimonyHistory'
 
-interface Transaction {
+export interface Transaction {
   id: number
   description: string
   amount: number
@@ -16,7 +16,7 @@ interface Transaction {
   accountType?: 'cash' | 'banks'
 }
 
-interface FixedExpense {
+export interface FixedExpense {
   id: string
   name: string
   amount: number
@@ -27,7 +27,7 @@ interface FixedExpense {
   createdAt?: string
 }
 
-interface PatrimonyItem {
+export interface PatrimonyItem {
   id: string
   name: string
   description?: string
@@ -39,7 +39,7 @@ interface PatrimonyItem {
   notes?: string
 }
 
-interface PatrimonyHistory {
+export interface PatrimonyHistory {
   id: string
   date: string
   totalValue: number
