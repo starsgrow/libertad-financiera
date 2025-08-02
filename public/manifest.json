@@ -1,0 +1,23 @@
+{
+  "name": "Libertad Financiera",
+  "short_name": "Finanzas",
+  "description": "Aplicación de finanzas personales para controlar tus gastos, ingresos y ahorros",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "lang": "es",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+} 

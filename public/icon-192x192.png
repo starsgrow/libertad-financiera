@@ -1,0 +1,5 @@
+# This is a placeholder for the icon file
+# In a real implementation, this would be a 192x192 PNG image
+# For now, you can either:
+# 1. Create a simple 192x192 PNG image and save it as icon-192x192.png
+# 2. Or remove the icon references from manifest.json and layout.tsx 
